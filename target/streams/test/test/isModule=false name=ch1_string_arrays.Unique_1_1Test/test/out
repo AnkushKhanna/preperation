@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mUnique_1_1Test:[0m[0m
+[0m[[0minfo[0m] [0m[32muniqueCharacters[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true if string is unique[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false if string is not unique[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true if string in empty[0m[0m

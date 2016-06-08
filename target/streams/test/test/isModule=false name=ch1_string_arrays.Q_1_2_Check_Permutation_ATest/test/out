@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mQ_1_2_Check_Permutation_ATest:[0m[0m
+[0m[[0minfo[0m] [0m[32mCheckPermutation[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true if strings are same[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false if string are different[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true if string are permuted reverse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false if string are not same but of equal length[0m[0m
