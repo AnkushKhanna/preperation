@@ -13,8 +13,8 @@ public class MergeSortTest
     @Test
     public void merge() throws Exception
     {
-        int[] arr = new int[]{4, 6, 1, 9, Integer.MAX_VALUE, 10, 88, 8, 5, 11, 2};
-        int[] sortedArr = new int[]{1, 2, 4, 5, 6, 8, 9, 10, 11, 88, Integer.MAX_VALUE};
+        int[] arr = new int[]{Integer.MAX_VALUE, 4, 6, 1, 9, Integer.MAX_VALUE, 10, 88, 8, 5, 11, 2};
+        int[] sortedArr = new int[]{1, 2, 4, 5, 6, 8, 9, 10, 11, 88, Integer.MAX_VALUE, Integer.MAX_VALUE};
 
         int[] mergedArr = mergeSort.mergeSort(arr, 0, arr.length);
 
