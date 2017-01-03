@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -7,10 +8,11 @@ public class DataReverse
 {
     public static void main(String[] args)
     {
-//        int[] data1= {1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0};
+        int[] data1= {1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0};
 //        int[] data2= {1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1};
 //
 //        Arrays.stream(DataReverse(data1)).forEach(b -> System.out.println(b));
+        System.out.println(Arrays.toString(DataReverse(data1)));
     }
 
     public static int[] DataReverse(int[] data)
