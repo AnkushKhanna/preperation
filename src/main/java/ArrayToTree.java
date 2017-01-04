@@ -17,7 +17,7 @@ public class ArrayToTree
             root.left = arrayToTree(array, (2 * start) + 1);
         }
 
-        if  (array.length > (2 * start) + 2) {
+        if (array.length > (2 * start) + 2) {
             root.right = arrayToTree(array, (2 * start) + 2);
         }
 
@@ -26,22 +26,23 @@ public class ArrayToTree
 
     public static void main(String[] args)
     {
-        TreeNode root = arrayToTree(new int[]{});
+        TreeNode root = arrayToTree(new int[]{5, 6, 4, 3, 5, 1});
 
-        displayTreeNode(root);
+        System.out.println(root.toString());
     }
 
-    private static void displayTreeNode(TreeNode root) {
-        if(root == null ){
+    private static void displayTreeNode(TreeNode root)
+    {
+        if (root == null) {
             return;
         }
-        System.out.println(root.value);
+       // System.out.println(root.value + "   left:" + root.left + "    ");
 
-        if(root.left !=null) {
+        if (root.left != null) {
             displayTreeNode(root.left);
         }
 
-        if(root.right != null){
+        if (root.right != null) {
             displayTreeNode(root.right);
         }
     }
@@ -65,7 +66,28 @@ public class ArrayToTree
         {
             this(value, null, null);
         }
-    }
 
+        @Override
+        public String toString()
+        {
+            StringBuilder str = new StringBuilder();
+            str.append("(");
+            str.append("Value:" + value+":::");
+            if (left == null) {
+                str.append("Left:" + null);
+            } else {
+                str.append("Left:" + left.toString());
+            }
+            str.append(":::");
+            if (right == null) {
+                str.append("Right:" + null);
+            } else {
+                str.append("Right:" + right.toString());
+            }
+            str.append(":::");
+            str.append(")");
+            return str.toString();
+        }
+    }
 }
 
