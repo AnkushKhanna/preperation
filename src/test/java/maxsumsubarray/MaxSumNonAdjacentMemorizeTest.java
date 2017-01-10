@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class MaxSumSubArrayMemorizeTest
+public class MaxSumNonAdjacentMemorizeTest
 {
-    MaxSumSubArrayMemorize maxSumNonAdjacent = new MaxSumSubArrayMemorize();
+    MaxSumNonAdjacentMemorize maxSumNonAdjacent = new MaxSumNonAdjacentMemorize();
 
     @Test
     public void find_max_adj_value() throws Exception

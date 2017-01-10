@@ -1,6 +1,6 @@
 package maxsumsubarray;
 
-public class MaxSumSubArray
+public class MaxSumNonAdjacent
 {
     public int findMaximum(int[] arr)
     {

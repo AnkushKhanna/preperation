@@ -4,7 +4,7 @@ import scala.Int;
 
 import java.util.Arrays;
 
-public class MaxSumSubArrayMemorize
+public class MaxSumNonAdjacentMemorize
 {
     public int findMaximum(int[] arr)
     {
