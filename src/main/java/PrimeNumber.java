@@ -25,7 +25,6 @@ public class PrimeNumber
 
     public static void main(String[] args)
     {
-        //        System.out.println(findPrime(800).stream().mapToLong(i -> i).count());
         System.out.println(findPrimeLong(50).stream().mapToLong(i -> i).count());
     }
 
