@@ -2,3 +2,5 @@ project/
 target/
 target/*
 .idea/
+src/main/java/careem/*
+src/test/java/careem/*
